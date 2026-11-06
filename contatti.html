@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta name="robots" content="noindex,nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contatti · Dott.ssa Marta Borgese, Psicologa ad Adelfia</title>
+<meta name="description" content="Contatta la Dott.ssa Marta Borgese: studio in via Notar De Cristofaro, Adelfia (BA). Richiedi un appuntamento.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contatti">
+<a class="skip" href="#main">Vai al contenuto</a>
+<div id="site-header"></div>
+<main id="main">
+<div class="page-head"><div class="wrap"><p class="eyebrow">Contatti</p><h1>Fissiamo un primo incontro</h1></div></div>
+<section><div class="wrap contact">
+  <div>
+    <ul class="info-list">
+      <li><svg aria-hidden="true"><use href="assets/icons.svg#pin"/></svg><div><b>Studio</b>Via Notar De Cristofaro<br>70010 Adelfia (BA)</div></li>
+      <li><svg aria-hidden="true"><use href="assets/icons.svg#clock"/></svg><div><b>Orari</b><span data-site="orari"></span></div></li>
+      <li data-hide-empty><svg aria-hidden="true"><use href="assets/icons.svg#phone"/></svg><div><b>Telefono</b><a data-site="telefono"></a></div></li>
+      <li data-hide-empty><svg aria-hidden="true"><use href="assets/icons.svg#mail"/></svg><div><b>Email</b><a data-site="email"></a></div></li>
+    </ul>
+    <div class="btns"><a class="btn ghost" data-wa target="_blank" rel="noopener">Scrivi su WhatsApp</a></div>
+    <div class="map" style="margin-top:24px"><div><p>Per rispetto della tua privacy la mappa si carica solo su richiesta.</p><button class="btn ghost" id="load-map" type="button">Mostra mappa</button></div></div>
+  </div>
+  <div class="card" id="richiesta">
+    <h2 style="font-size:1.6rem">Richiedi un appuntamento</h2>
+    <p>Compila il modulo: ti ricontatterò al più presto. Non inserire dettagli clinici in questo messaggio.</p>
+    <form id="richiesta-form" novalidate>
+      <div class="field"><label for="nome">Nome e cognome *</label><input id="nome" name="nome" autocomplete="name" required maxlength="100"></div>
+      <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" maxlength="120"></div>
+      <div class="field"><label for="telefono">Telefono</label><input id="telefono" name="telefono" type="tel" autocomplete="tel" maxlength="30"></div>
+      <div class="field"><label for="messaggio">Messaggio (facoltativo)</label><textarea id="messaggio" name="messaggio" rows="4" maxlength="1000" placeholder="Ad esempio: giorni e orari preferiti"></textarea></div>
+      <input class="hp" name="sito" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="field"><label class="check"><input type="checkbox" name="consenso" required><span>Ho letto l'<a href="privacy.html" target="_blank">informativa privacy</a> e acconsento al trattamento dei dati per essere ricontattato/a.</span></label></div>
+      <button class="btn" type="submit">Invia richiesta</button>
+      <div class="form-msg" role="status"></div>
+    </form>
+  </div>
+</div></section>
+</main>
+<div id="site-footer"></div>
+<script src="js/demo.js"></script>
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
